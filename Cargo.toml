@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+    "cheet_sheet",
+    "var_types_func",
+]
+
+#https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html
