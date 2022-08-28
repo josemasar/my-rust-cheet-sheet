@@ -7,3 +7,5 @@ edition = "2021"
 
 [dependencies]
 var_types_func = { path = "../var_types_func" }
+loop_while_for = { path = "../loop_while_for" }
+handle_errors ={ path = "../handle_errors" }

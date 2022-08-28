@@ -3,6 +3,8 @@
 members = [
     "cheet_sheet",
     "var_types_func",
+    "loop_while_for",
+    "handle_errors"
 ]
 
 #https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html
