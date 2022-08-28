@@ -12,7 +12,10 @@ fn main() {
     println!("Hello, world!");
     // var_types_func::variables::learn_variables();
     // var_types_func::types::learn_types();
+    // var_types_func::types::strings::learn_strings();
     // var_types_func::functions::learn_functions();
+    // var_types_func::conditionals::learn_conditionals();
+    // var_types_func::conditionals::learn_pattern_matching();
 
     // loop_while_for::iterate::learn_loops();
 

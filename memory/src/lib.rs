@@ -60,5 +60,25 @@ pub mod borrow_checker {
         let dog = Highlight(&text[35..43]);
         println!("{:?}", fox);
         println!("{:?}", dog);
+
+        /* let x = 10;
+
+        {
+            let y = 5;
+            println!("x is {}, y is {}", x, y);
+        }
+
+        println!("x is {}, y is {}", x, y); */
+
+        //References
+
+        /* let mut x = 10;
+        // let xr = &x;
+        {
+            let second_reference = &mut x;
+            *second_reference += 1;
+        }
+        println!("{}", x);
+        */
     }
 }

@@ -129,5 +129,76 @@ pub mod generic_types_traits {
             println!("-> {}", value.as_json());
             println!("Done!\n");
         }
+
+        /* let my_rect = Rectangle { width:10, height:5 };
+        my_rect.print_description();
+        println!("{}", my_rect.is_square()) */
+
+        /* let jm_sar = Person { name: String::from("Jm Sar"), age: 21};
+
+        println!("{}", jm_sar.to_string()); */
+
+        /* struct Rectangle {
+            width: u32,
+            height: u32
+        }
+
+        impl Rectangle {
+            fn print_description(&self){
+                println!("Width: {} Height: {}", self.width, self.height);
+            }
+
+            fn is_square(&self) -> bool {
+                return self.width == self.height
+            }
+        } */
+
+        /* struct Person {
+            name: String,
+            age: u8
+        }
+
+        trait HasVoiceBox {
+            fn speak(&self);
+
+            fn can_speak(&self) -> bool;
+        }
+
+        impl HasVoiceBox for Person {
+            fn speak(&self){
+                println!("Hellooooo!!!")
+            }
+
+            fn can_speak(&self) -> bool {
+                if self.age > 0 {
+                    return true;
+                } return false;
+            }
+        } */
+
+        /*
+
+        impl ToString for Person {
+            fn to_string(&self) -> String {
+                return format!("My name is {} and I am {}", self.name, self.age);
+            }
+        } */
+        /*  enum Day {
+           Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+        }
+
+        impl Day {
+           fn is_weekday(&self) -> bool {
+               match self {
+                   &Day::Saturday | &Day::Sunday => return false,
+                   _ => true
+               }
+           }
+        }
+
+        /* let d = Day::Saturday;
+            println!("Is d a weekday? {}", d.is_weekday());
+             */
+        */
     }
 }
