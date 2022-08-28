@@ -7,3 +7,9 @@ edition = "2021"
 
 [dependencies]
 var_types_func = { path = "../var_types_func" }
+loop_while_for = { path = "../loop_while_for" }
+handle_errors ={ path = "../handle_errors" }
+memory ={ path = "../memory" }
+generic_types_traits ={ path = "../generic_types_traits" }
+mod_packages_crates ={ path = "../mod_packages_crates" }
+testing ={ path = "../testing"}
