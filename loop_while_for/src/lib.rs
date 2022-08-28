@@ -1,5 +1,5 @@
-pub mod iterate{
-    pub fn learn_loops(){
+pub mod iterate {
+    pub fn learn_loops() {
         // loop: Repeat, unless a manual stop occurs.
         // while: Repeat while a condition remains true.
         // for: Repeat for all values in a collection.
@@ -9,7 +9,7 @@ pub mod iterate{
         }
 
         let mut counter = 0;
-        let finish_count = loop{
+        let finish_count = loop {
             counter += 1;
             println!("I´m counting {}", counter);
             if counter > 100 {
@@ -18,7 +18,6 @@ pub mod iterate{
         };
 
         println!("{:?}", finish_count);
-
 
         let mut counter_while: i32 = 1;
 
@@ -29,11 +28,11 @@ pub mod iterate{
 
         let big_birds = ["ostrich", "peacock", "stork"];
         for bird in big_birds.iter() {
-        println!("The {} is a big bird.", bird);
+            println!("The {} is a big bird.", bird);
 
-        for number in 0..5 {
-            println!("{}", number * 2);
-        }
+            for number in 0..5 {
+                println!("{}", number * 2);
+            }
         }
     }
 }

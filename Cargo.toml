@@ -4,7 +4,12 @@ members = [
     "cheet_sheet",
     "var_types_func",
     "loop_while_for",
-    "handle_errors"
+    "handle_errors",
+    "memory", 
+    "generic_types_traits",
+    "mod_packages_crates",
+    "testing",
+    "notes"
 ]
 
 #https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html

@@ -1,8 +1,12 @@
 #[allow(unused_imports)]
-use var_types_func;
+use handle_errors;
 #[allow(unused_imports)]
 use loop_while_for;
-use handle_errors;
+#[allow(unused_imports)]
+use memory;
+#[allow(unused_imports)]
+use var_types_func;
+#[allow(unused_imports)]
 
 fn main() {
     println!("Hello, world!");
@@ -12,5 +16,13 @@ fn main() {
 
     // loop_while_for::iterate::learn_loops();
 
-    handle_errors::error_handling::learn_errors()
+    // handle_errors::error_handling::learn_errors();
+
+    // memory::borrow_checker::learn_borrowchecker();
+
+    // generic_types_traits::generic_types_traits::learn_generictypestraits();
+
+    // mod_packages_crates::mod_packages_crates::learn_modpackagescrates();
+
+    // testing::testing::learn_testing();
 }
